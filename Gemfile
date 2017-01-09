@@ -19,6 +19,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+# users & authentication
+gem 'devise', '3.4.1'
+gem 'bootstrap-sass'
 
 group :development, :test do
   gem 'sqlite3'
